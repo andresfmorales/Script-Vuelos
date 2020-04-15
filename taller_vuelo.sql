@@ -21,8 +21,7 @@ COLLATE = utf8mb4_0900_ai_ci;
 
 
 CREATE TABLE IF NOT EXISTS `taller_vuelo`.`persona` (
-  `id_persona` INT NOT NULL AUTO_INCREMENT,
-  `identificacion` VARCHAR(12) NOT NULL,
+  `id_persona` INT NOT NULL,
   `nombre` VARCHAR(30) NOT NULL,
   `direccion` VARCHAR(30) NOT NULL,
   `edad` INT NOT NULL,
